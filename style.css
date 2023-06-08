@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #3882f6;
+  border: 0;
+  padding: 5px 20px;
+  border-radius: 8px;
+  color: #f9faf8;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  align-items: center;
+  margin-left: auto;
+  gap: 16px;
+}
+/* Hero Main */
+.hero_main {
+  gap: 250px;
+  background-color: #1f2937;
+  padding: 50px 250px;
+}
+
+.hero_main_header {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero_main_img {
+  width: 400px;
+  height: auto;
+  margin: 16px 0;
+  flex: 0 1 auto;
+}
+
+.info {
+  flex: 1;
+}
+/* Information */
+.information {
+  background-color: #fbfbf7;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+.information_header {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  margin: 20px;
+}
+
+.cards {
+  gap: 38px;
+}
+
+.card {
+  width: min-content;
+}
+
+.card > p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card_img {
+  width: 150px;
+  height: auto;
+  border: #525009 2px solid;
+  border-radius: 8px;
+}
+/* quote */
+.quote {
+  background-color: #e5e7eb;
+  font-weight: light;
+  color: #1f2937;
+}
+
+.quote_text {
+  font-style: italic;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.quote_by {
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: end;
+  margin-top: 0;
+}
+/* footer */
+footer {
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
+}
+.call {
+  margin: 20px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+
+.call_text {
+  margin: 0;
+}
+
+.call_button {
+  border: #f9faf8 1px solid;
+}
+
+/* combination */
+header,
+.hero_main,
+.information,
+footer,
+header > ul,
+.cards,
+.quote_by,
+.call {
+  display: flex;
+}
+
+header,
+footer,
+.quote {
+  padding: 0 250px;
+}
+
+header,
+.hero_main_header {
+  color: #f9faf8;
+  background-color: #1f2937;
+}
+
+.hero_secondary,
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
